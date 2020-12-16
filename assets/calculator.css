@@ -1,0 +1,11 @@
+.conteiner {
+    margin: 5% 30% 20% 25%;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    font-size: 10em;
+    text-align: center;
+    background-color: #90f333;
+}
