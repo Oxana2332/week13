@@ -9,19 +9,19 @@ function minusFunction()
 {
     let first = prompt (`первое число`);
     let second = prompt (`второе число`);
-    alert (Number(first) - Number(second));
+    alert (first - second);
 }
 
 function multiplyFunction() 
 {
     let first = prompt (`первое число`);
     let second = prompt (`второе число`);
-    alert (Number(first) * Number(second));
+    alert (first * second);
 }
 
 function divideFunction() 
 {
     let first = prompt (`первое число`);
     let second = prompt (`второе число`);
-    alert (Number(first) / Number(second));
+    alert (first / second);
 }
