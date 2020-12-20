@@ -1,9 +1,6 @@
 function plusFunction() 
 {
-    let first = prompt (`первое число`);
-    let second = prompt (`второе число`);
-    let result = plusFunctionplus (first, second);
-    alert (result);
+    alert (plusFunctionplus (prompt (`первое число`), prompt (`второе число`)));
 }
 
 function plusFunctionplus (first, second)
@@ -14,10 +11,7 @@ function plusFunctionplus (first, second)
 
 function minusFunction() 
 {
-    let first = prompt (`первое число`);
-    let second = prompt (`второе число`);
-    let result = minusFunctionminus (first, second);
-    alert (result);
+    alert (minusFunctionminus (prompt (`первое число`), prompt (`второе число`)));
 }
 
 function minusFunctionminus (first, second)
@@ -27,10 +21,7 @@ function minusFunctionminus (first, second)
 
 function multiplyFunction() 
 {
-    let first = prompt (`первое число`);
-    let second = prompt (`второе число`);
-    let result = multiplyFunctionmultiply (first, second);
-    alert (result);
+        alert (multiplyFunctionmultiply (prompt (`первое число`), prompt (`второе число`)));
 }
 
 function multiplyFunctionmultiply (first, second)
@@ -40,10 +31,7 @@ function multiplyFunctionmultiply (first, second)
 
 function divideFunction() 
 {
-    let first = prompt (`первое число`);
-    let second = prompt (`второе число`);
-    let result = divideFunctiondivide (first, second);
-    alert (result);
+    alert (divideFunctiondivide (prompt (`первое число`), prompt (`второе число`)));
 }
 
 function divideFunctiondivide (first, second)
